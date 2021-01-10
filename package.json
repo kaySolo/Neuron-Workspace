@@ -1,0 +1,25 @@
+{
+  "name": "13.ElectronNvsCode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron . --ignore-gpu-blacklist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^9.1.0",
+    "jquery": "^3.5.1",
+    "jquery-ui-dist": "^1.12.1",
+    "jstree": "^3.3.10",
+    "monaco-editor": "^0.20.0",
+    "monaco-themes": "^0.3.3",
+    "node-pty": "^0.9.0",
+    "prompt-sync": "^4.2.0",
+    "xterm": "4.2.0",
+    "xterm-addon-fit": "^0.4.0"
+  }
+}
